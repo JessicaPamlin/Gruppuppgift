@@ -1,3 +1,4 @@
+package TicTacToe;
 
 public class Spelplan {
 	static String[] spelplan = new String[9];
