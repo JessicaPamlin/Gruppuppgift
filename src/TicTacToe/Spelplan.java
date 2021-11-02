@@ -3,7 +3,7 @@ package TicTacToe;
 public class Spelplan {
 	static String[] spelplan = new String[9];
 
-	public static void skrivUtSpelplanen() { //skriver ut spelplanen
+	public static void skrivUtSpelplanen() { // skriver ut spelplanen
 
 		System.out.println("\t-------------");
 		System.out.println("\t| " + spelplan[0] + " | " + spelplan[1] + " | " + spelplan[2] + " |");
@@ -15,15 +15,13 @@ public class Spelplan {
 
 		System.out.println("  *************************");
 
-
 	}
 
-	public static void fyllSpelplan() { //hur stor spelplanen skall vara
+	public static String[] fyllSpelplan() { // hur stor spelplanen skall vara
 		for (int position = 0; position < 9; position++) {
-			spelplan[position] = String.valueOf(position+1);
+			spelplan[position] = String.valueOf(position + 1);
 		}
+		return spelplan;
 	}
 
 }
-
-
