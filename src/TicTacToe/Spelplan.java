@@ -5,12 +5,13 @@ public class Spelplan {
 
 	public static void skrivUtSpelplanen() { //skriver ut spelplanen
 
+		System.out.println("\t-------------");
 		System.out.println("\t| " + spelplan[0] + " | " + spelplan[1] + " | " + spelplan[2] + " |");
 		System.out.println("\t|-----------|");
 		System.out.println("\t| " + spelplan[3] + " | " + spelplan[4] + " | " + spelplan[5] + " |");
 		System.out.println("\t|-----------|");
 		System.out.println("\t| " + spelplan[6] + " | " + spelplan[7] + " | " + spelplan[8] + " |");
-
+		System.out.println("\t-------------");
 
 		System.out.println("  *************************");
 
