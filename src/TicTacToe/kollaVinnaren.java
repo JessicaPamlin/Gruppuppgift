@@ -2,11 +2,11 @@ package TicTacToe;
 
 public class kollaVinnaren {
 
-	public static String win(String[] a) {
+	public static String win(String[] a, String c) {
 		for (int i = 0; i < a.length; i++) {
 			a[i]=a[i].toLowerCase();
 		}
-		String c=null;
+//		String c=null;
 		boolean result = false;
 		String b = null;
 		for (int i = 0; i <= 7; i++) {
