@@ -70,7 +70,6 @@ public class Main {
 		System.out.println("  *************************");
 
 	}
-
 	public static void fyllSpelplan() { // hur stor spelplanen skall vara
 		for (int position = 0; position <9; position++) {
 			spelplan[position] = String.valueOf(position + 1);

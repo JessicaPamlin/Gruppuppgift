@@ -3,7 +3,7 @@ package TicTacToe;
 public class Inmatning {
 	
 	// Metod för att kolla om spelarens val av plats är ledig
-	// och sedan placera ett x eller o på spelplanen
+	// och sedan placera ett x eller o på spelplanen...
 	public static boolean kollaPlatserOchPlaceraTecken(String[] spelplan, String spelarensVal, String tecken) {
 
 		switch (spelarensVal) {
